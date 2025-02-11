@@ -3,10 +3,16 @@
     <head>
         <meta charset = "UTF-8">
         <title> My Wesite - About</title>
+
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css')}}"/>
     </head>
+
 
     <body>
         <h1>Brandon Ellington</h1>
+
+        <img src="{{ url_for('static', filename= 'static/Brandon Ellington.jpeg') }}" alt="My Image" width = "400" height = "400">
+        
         <p>My name is Brandon Ellington. I am a past student of Ardenne High School. My favoutite
             hobbies are playing games and playing drums. My major is in Computer Science and I currently
             attend the University of The West Indies.
